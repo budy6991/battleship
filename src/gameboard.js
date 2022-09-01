@@ -1,0 +1,1 @@
+// Start by creating a grid of cells, select one position. Based on that we should be able to get both coordinates, and then be able to place ships in those. 

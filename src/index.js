@@ -1,18 +1,6 @@
-import alertsomething from "./example"
 import "./style.css"
-import Icon from "./icon.png"
+import { Ship } from "./shipFactory"
 
-function consolelog() {
-    console.log('Long live to greece')
-}
+let whiteShip = new Ship(3,'','')
 
-const body = document.querySelector('body')
-
-const myIcon = new Image()
-myIcon.src = Icon
-
-// body.appendChild(myIcon)
-
-consolelog()
-
-alertsomething()
+console.log(whiteShip.shipLength)
